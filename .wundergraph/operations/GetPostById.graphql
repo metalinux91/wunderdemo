@@ -1,0 +1,7 @@
+query ($id: Int!) {
+    db_findUniquePost (where: { id: $id }) {
+        title
+        content
+        createdAt
+    }
+}

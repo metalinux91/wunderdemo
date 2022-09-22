@@ -1,0 +1,137 @@
+.heading2Xl {
+  font-size: 2.5rem;
+  line-height: 1.2;
+  font-weight: 800;
+  letter-spacing: -0.05rem;
+  margin: 1rem 0;
+}
+
+.headingXl {
+  font-size: 2rem;
+  line-height: 1.3;
+  font-weight: 800;
+  letter-spacing: -0.05rem;
+  margin: 1rem 0;
+}
+
+.headingLg {
+  font-size: 1.5rem;
+  line-height: 1.4;
+  margin: 1rem 0;
+}
+
+.headingMd {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.borderCircle {
+  border-radius: 9999px;
+}
+
+.colorInherit {
+  color: inherit;
+}
+
+.padding1px {
+  padding-top: 1px;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.listItem {
+  margin: 0 0 1.25rem;
+}
+
+.lightText {
+  color: #666;
+}
+
+.subtitle {
+  text-align: center;
+}
+
+.postButton {
+  background: #2596be;
+  border: 0;
+  border-radius: 0.5rem;
+  bottom: 2rem;
+  color: #fff;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,
+    Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  outline: none;
+  padding: 0.5rem;
+  position: absolute;
+  right: 2rem;
+}
+
+.postButton:hover {
+  background-color: #1e7898;
+}
+
+.postButton:active {
+  transform: translateY(0.2rem);
+}
+
+.postFormWrapper {
+  align-items: center;
+  bottom: 2rem;
+  border: 0.2rem solid #92cbdf;
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+  position: absolute;
+  right: 2rem;
+  width: 40%;
+  z-index: 1;
+}
+
+.postForm {
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+  width: 100%;
+}
+
+.inputs {
+  background-color: #f1f1f1;
+  border: none;
+  font-size: 14px;
+  padding: 10px;
+}
+
+.formButtons {
+  border: 0;
+  border-radius: 0.5rem;
+  color: #fff;
+  font-weight: 600;
+  margin: 0.5rem 0 0.2rem 0;
+  padding: 0.5rem;
+  width: 50%;
+}
+
+.formButtons:active {
+  transform: translateY(0.2rem)
+}
+
+#postButton {
+  background-color: #43d672;  
+}
+
+#postButtonInactive {
+  background-color: #9c9c9c;
+}
+
+#postButtonInactive:active {
+  transform: none;
+}
+
+#closeButton {
+  background-color: #f00;
+}

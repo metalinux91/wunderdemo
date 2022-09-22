@@ -1,0 +1,7 @@
+query ($take: Int! ) {
+    db_findManyPost (take: $take orderBy: [{ createdAt: desc }]) {
+        id
+        title
+        createdAt
+    }
+}
